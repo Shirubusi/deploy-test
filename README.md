@@ -26,29 +26,19 @@ npm install gh-pages --save-dev
 **5.init**  
 git init  
 
-**6.remote**
+**6.remote**  
+git remote add origin https://github.com/"ユーザー名"/"リポジトリ名".git  
 
-git remote add origin https://github.com/"ユーザー名"/"リポジトリ名".git
+**7.add**  
+git add .  
 
+**8.commit**  
+git commit -m "コメント"  
 
-**7.add**
+**9.deploy**  
+npm run deploy  
 
-git add .
-
-
-**8.commit**
-
-git commit -m "コメント"
-
-
-**9.deploy**
-
-npm run deploy
-
-
-**10.push**
-
-git push -u origin master
-
+**10.push**  
+git push -u origin master  
 
 ここまでの流れでアプリをGitHubで公開できます。
