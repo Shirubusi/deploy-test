@@ -1,5 +1,5 @@
 # create-react-appで作成したアプリをGitHubで公開するまで
-# 予めGitHubでリポジトリを作成しておく(ユーザー名とリポジトリ名が必要になるため)
+予めGitHubでリポジトリを作成しておく(ユーザー名とリポジトリ名が必要になるため)
 
 1.create-react-app　*アプリ名はリポジトリ名と同じにした方が望ましい
 npx create-react-app "アプリ名"
