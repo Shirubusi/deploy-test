@@ -1,19 +1,14 @@
 # create-react-appで作成したアプリをGitHubで公開するまで
 **予めGitHubでリポジトリを作成しておく(ユーザー名とリポジトリ名が必要になるため)**
 
-**1.create-react-app　*アプリ名はリポジトリ名と同じにした方が望ましい**
+**1.create-react-app**　*アプリ名はリポジトリ名と同じにした方が望ましい  
+npx create-react-app "アプリ名"  
 
-npx create-react-app "アプリ名"
+**2.ディレクトリ移動**  
+cd "アプリ名"  
 
-
-**2.ディレクトリ移動**
-
-cd "アプリ名"
-
-**3.gh-pagesをインストール**
-
-npm install gh-pages --save-dev
-
+**3.gh-pagesをインストール**  
+npm install gh-pages --save-dev  
 
 **4.pakage.jsonに"homepage","predeploy","deploy"を追記**
 
@@ -28,9 +23,8 @@ npm install gh-pages --save-dev
   },
 
 
-**5.init**
-
-git init
+**5.init**  
+git init  
 
 **6.remote**
 
